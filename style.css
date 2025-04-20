@@ -1,0 +1,54 @@
+*{
+    margin : 0;
+    padding:0;
+    box-sizing: borde-box;
+}
+h1{
+    color:#cfff0c;
+    font-size: 30px ;
+}
+video{
+    width: 40%;
+    padding: 3rem;
+}
+body{
+    text-align: center;
+    background-color: #323232;
+    
+}
+#input-real{
+    margin: 1rem;
+    border: 2px solid #cfff0c;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+#input-dolar{
+    border: 2px solid red ;
+    width: 150px;
+    height: 30px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #cfff0c;
+    background-color: #323232;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Adiiciona um transição suave na propriedade transform*/
+
+}
+ button:hover{
+    color:#323232;
+    background-color: #cfff0c;
+ }
+
+button:active{
+    /* Estilos aplicado quando o botão é clicado*/
+    transform: scale(0.9);  /* Aumenta o tamanho do botão em 10%*/
+}
